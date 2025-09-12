@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Features and Footer</title>
+    
+    <style>
+       /* Features Section */
+#features {
+    padding: 2rem;
+    text-align: center;
+}
+
+#features-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature {
+    flex: 1 1 calc(33.333% - 1rem);
+    margin: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#feature img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    #feature {
+        flex: 1 1 100%;
+    }
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    margin-top: 1rem;
+    font-size: 00.8rem;
+}
+ 
+    </style>
+    
+</head>
+<body>
+
+<section id="features">
+    <h2>X.D.E PROVISION STORE WASAGU</h2>
+    <div id="features-container">
+        <div id="feature">
+            <img src="Was.png" alt="Nibss Icon">
+            <h3>BVN Services</h3>
+            <p>X.D.E offers Instant BVN enrollment and and other 24/7 BVN services.</p>
+        </div>
+        <div id="feature">
+            <img src="e0f2909b968c413bb896865a33b51d3d.jpg" alt="Feature 2 Icon">
+            <h3>Sim Card Registion</h3>
+            <p>XDE Offers Instant Sim Registration and other Sim Services.</p>
+        </div>
+        <div id="feature">
+            <img src="images.png" alt="Feature 3 Icon">
+            <h3>NIN Enrollment</h3>
+            <p>NIN Enrollment is also available at XDE Provision store wasagu.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div id="contact-details">
+        <p>Email: Abdulazizlawal401@gmail.com</p>
+        <p>Phone: +234 7013250074</p>
+        <p><a href="                       
+    </div>
+    <div id="copyright">
+        <p>&copy; 2025 All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
