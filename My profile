@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+ 
+</head>
+<body>
 
+    <!-- Header Section -->
+    <header>
+        <h1>My Profile</h1>
+        <nav>
+            <ul>
+                <li>About Me</li>
+                <li>Hobbies</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Bio Section -->
+    <section>
+        <h2>About Me</h2>
+        <img src="Img/Mini.jpg" alt="My Profile Picture" width="200">
+        
+        <p> Hello! My name is [Your Name]. I am
+        passionate about technology, 
+       continuous learning, and problem-solving. I enjoy working on creative 
+            projects and improving my coding skills every day.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Hobbies / Interests Section -->
+    <section>
+        <h2>My Hobbies & Interests</h2>
+        <ol>
+            <li>Reading tech blogs and books</li>
+            <li>Coding and building projects</li>
+            <li>Playing football</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Contact</h2>
+        <p>Email: Abdulazizlawal401@gmail.com</p>
+        <p>Phone: +123 7013250074</p>
+    </footer>
+
+</body>
+</html>
